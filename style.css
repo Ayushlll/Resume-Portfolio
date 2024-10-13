@@ -1,0 +1,185 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Resume Container */
+.resume {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+.contact-info {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 24px;
+    color: #4CAF50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Profile */
+.profile p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #f0f0f0;
+    color: #333;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Experience */
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.job p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.job ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+/* Education */
+.education p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Projects */
+.projects .project {
+    margin-bottom: 20px;
+}
+
+.projects .project h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.projects .project p {
+    font-size: 16px;
+    color: #555;
+}
+
+.projects .project a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.projects .project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact */
+.contact p {
+    font-size: 16px;
+    color: #444;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .resume {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .skills ul li {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
